@@ -11,7 +11,7 @@ a {
 }
 .layout { /* Website grid layout */
     width: 1850px;
-    height: 900px;
+    height: 1000px;
     display: grid;
     grid:
       "header header header header header" 1fr
@@ -23,7 +23,7 @@ a {
     gap: 10px;
 }
 .header { grid-area: header; 
-          background: #333333 url('images/ALDYZ STATION OVERLAY.png'); /* display: flex; */
+          background: #333333 url('images/ALDYZ STATION OVERLAY.png') no-repeat; /* display: flex; */
           color: #FFFFFF;
           text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
           text-align: center;
@@ -32,11 +32,11 @@ a {
 /* Style the side navigation */
 .sidenav {
     grid-area: sidenav;
-    height: 100%;
+    height: fit-content;
     width: 200px;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 20;
+    left: 10;
     background-color: #111;
     overflow-x: hidden;
     color: #FFFFFF;
@@ -47,7 +47,7 @@ a {
 /* Side navigation links */
 .sidenav a {
     color: white;
-    padding: 10px;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
     display: block;
 }
@@ -88,3 +88,40 @@ a {
         }
 
     }
+/* Drop down button menu sidenav layout */
+    .dropbtn {
+        background-color: #111;
+        color: #FFFFFF;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+        font-size: 16px;
+    }
+    /* creates button box over sidenav bar */
+   /* .dropdown {
+      position: relative;
+      display: inline-block;
+    } */
+    /*^^^ creates button box over sidenav bar ^^^*/
+    .dropdown-content {
+      display: none;
+      position: center;
+      background-color: #f1f1f1;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    /* Drop down menu style */
+    .dropdown-content a {
+        background-color: #111;
+        color: #FFFFFF;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #111;}
+/*^^^ Drop down button menu sidenav layout ^^^*/
