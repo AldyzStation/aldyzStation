@@ -10,7 +10,7 @@ a {
     text-rendering: optimizeLegibility;
 }
 .layout {
-    width: 1800px;
+    width: 1850px;
     height: 900px;
     display: grid;
     grid:
