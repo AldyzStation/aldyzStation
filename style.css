@@ -9,7 +9,7 @@ a {
     display: inline-block;
     text-rendering: optimizeLegibility;
 }
-.layout {
+.layout { /* Website grid layout */
     width: 1850px;
     height: 900px;
     display: grid;
