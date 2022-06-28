@@ -2,12 +2,12 @@ a {
     color: inherit;
 }
 @import url("https://fonts.googleapis.com/css?family=Play"); 
-
-body {
-    font-family: "Play", comic-sans;
-    background-color: #355c7d;
-    font-size: inherit;
-    line-height: 2;
+#container {
+    margin: 0 auto;
+    width: 100%;
+    align-content:left;
+    display: inline-block;
+    text-rendering: optimizeLegibility;
 }
 .layout {
     width: 1800px;
@@ -72,3 +72,19 @@ body {
     margin: 20px;
     display: inline;
 }
+@media only screen and (max-width: 690px) {
+    #container {
+        max-width:100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (min-width: 690px) {
+    #container {
+            max-width:100%;
+            align-content:center;
+            margin: 0 auto;
+        }
+
+    }
