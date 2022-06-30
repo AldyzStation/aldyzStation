@@ -28,9 +28,12 @@
                 <a href="../pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
                 <a href="../pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
             </h5>
-            <h4><div class="dropdown">
-                <button class="dropbtn">Game Development Tools</button>
-                <div class="dropdown-content">
+            <div class="dropdown">
+                <button class="dropdown-btn" onclick="myFunction()">Game Development Tools
+                    <i class="fa fa-caret-down"></i>
+                </button></h4>
+                <div class="dropdown-container" id="myDropdown">
+                    <script src="../scripts/myDropdown.js"></script>
                     <h6>
                         <a href="https://www.pygame.org/docs/" target="_blank" rel="noopener noreferrer">Pygame Docs</a>
                         <a href="https://github.com/pygame/pygame" target="_blank" rel="noopener noreferrer">Pygame Git Hub</a>
