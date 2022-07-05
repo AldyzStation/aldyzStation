@@ -15,20 +15,52 @@
     <title>Aldyz Station</title>
 </head>
 <body>
-    <section class="layout"> <!-- make drop down bar persistant of click -->
-        <div class="header">
-            <div id="hello">
-                <script src="./scripts/greeting.js"></script></p>
+<section class="layout"> <!-- make drop down bar persistant of click -->
+<div class="header">
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+            <div class="overlay-content"> 
+            <h5>
+            <a href="/index.html" rel="noopener noreferrer">Home</a>
+            <a href="./pages/personal.html" rel="noopener noreferrer">Personal</a>
+            <a href="./pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
+            <a href="./pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
+            <a href="./pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+            </h5>
+            </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open Home Memu</span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <script src="./scripts/overlaynav.js"></script>
+    </div>
+    </div>
+        <div class="sidenav"> 
+        <h5>
+            <a href="../index.html" rel="noopener noreferrer">Home</a>
+            <a href="../pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
+            <a href="../pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
+            <a href="../pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+        </h5>
+        <div class="dropdown">
+            <button class="dropdown-btn" onclick="myFunction()">Personal
+              <i class="fa fa-caret-down"></i>
+            </button></h4>
+            <div class="dropdown-container" id="myDropdown">
+                <script src="../scripts/myDropdown.js"></script>
+                    <a href="https://www.youtube.com/channel/UCXbkqa4ImVZr2HkSmoZnVvg" target="_blank" rel="noopener noreferrer">My YouTube</a>
+                    <a href="https://www.twitch.tv/aldyzstation" target="_blank" rel="noopener noreferrer">My Twitch</a>
+                    <a href="https://www.reddit.com/user/Aldy_Station" target="_blank" rel="noopener noreferrer">My Reddit</a>
+                    <a href="https://github.com/Aldyz-Git" target="_blank" rel="noopener noreferrer">My Git-Hub</a>
+                    <a href="https://www.linkedin.com/in/jake-alderton-4a64a0243/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://9anime.vc" target="_blank" rel="noopener noreferrer">9 Anime</a>
+                    <a href="https://www.eyeofjustice.com/od/" target="_blank" rel="noopener noreferrer">Eye of Justice OD</a>
             </div>
         </div>
-        <div class="sidenav">
-            <h5>
-                <a href="/index.html" rel="noopener noreferrer">Home</a>
-                <a href="./pages/personal.html" rel="noopener noreferrer">Personal</a>
-                <a href="./pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
-                <a href="./pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
-                <a href="./pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
-            </h5>
+        </div> 
+        </div>
+
         </div>
         <div class="content">
             <iframe width="560" height="315" 
@@ -36,10 +68,7 @@
             </iframe>
         </div>
         <div class="footer">
-            <div id="hello">
-                <script src="./scripts/greeting.js"></script>
-            </div>
         </div>
-    </section>
+</section>
 </body>
 </html>
