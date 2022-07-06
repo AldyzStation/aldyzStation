@@ -16,10 +16,26 @@
 </head>
 <body>
     <section class="layout">
-        <div class="header"><a href="../index.html">
-            <div id="hello">
-                <script src="../scripts/greeting.js"></script></a>
-            </div>
+        <div class="header">
+        <div id="hello">
+        <script src="/scripts/greeting.js"></script>
+        </div>
+        <div id="myNav" class="overlay">   
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>    
+                            <!-- Overlay content -->
+                <div class="overlay-content"> 
+                <h5>
+                <a href="/index.html" rel="noopener noreferrer">Home</a>
+                <a href="/pages/personal.html" rel="noopener noreferrer">Personal</a>
+                <a href="/pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
+                <a href="/pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+                </h5>
+                </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open Home Memu</span>
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <span onclick="openNav()"></span>
+                <script src="/scripts/overlaynav.js"></script>
         </div>
         <div class="sidenav"> 
             <h5><a href="../index.html" rel="noopener noreferrer">Home</a>
