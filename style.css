@@ -27,7 +27,7 @@
  padding: 8px;
  text-decoration: none;
  font-size: 36px;
- color: #818181;
+ color: #fffdfd;
  display: block; /* Display block instead of inline */
  transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -82,7 +82,7 @@ a {
           position: relative;
           background: #333333 url('images/ALDYZ STATION OVERLAY.png'); /* display: flex; */
           color: #FFFFFF;
-          text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+          text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
           text-align: center;
           font-family: "Comic Sans MS", "Comic Sans", cursive;          
 }
@@ -109,7 +109,7 @@ a {
     background-color: #111;
     overflow-x: hidden;
     color: #FFFFFF;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2b2b 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
     text-align: center;
     font-family: "Comic Sans MS", "Comic Sans", cursive;          
 }
@@ -120,7 +120,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
     display: block;
     border: none;
     background: none;
@@ -133,7 +133,7 @@ a {
 .footer { grid-area: footer; 
     background: #333333 url('images/ALDYZ STATION OVERLAY.png'); /* display: flex; */
     color: #FFFFFF;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
     text-align: center;
     font-family: "Comic Sans MS", "Comic Sans", cursive;          
 }
@@ -170,7 +170,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
     cursor: pointer;
     outline: none;
     border: none;
@@ -188,7 +188,7 @@ a {
 }
     /* Add an active class to the active dropdown button */
     .active {
-        background-color: rgb(255, 43, 191);
+        background-color: rgb(255, 43, 43);
         color: white;
       }
     /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
