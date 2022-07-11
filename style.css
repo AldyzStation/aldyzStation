@@ -178,7 +178,7 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    background: black;
+    background: none;
   }
     /* creates button box over sidenav bar */
    /* .dropdown {
