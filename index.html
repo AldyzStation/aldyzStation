@@ -15,7 +15,10 @@
     <title>Aldyz Station</title>
 </head>
 <body>
-    <a href="images/ALDYZ STATION OVERLAY.png" class="logo">CompanyLogo</a>
+    <video autoplay muted loop id="myVideo">
+        <source src="/images/dbz.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
 <section class="layout"> <!-- make drop down bar persistant of click -->
     <div class="header">
     <div id="hello">
@@ -60,7 +63,11 @@
                     <a href="https://www.eyeofjustice.com/od/" target="_blank" rel="noopener noreferrer">Eye of Justice OD</a>
             </div>
         </div>
-    </div> 
+    </div>
+        <div class="content"> <!--video background content class-->
+            <button id="myBtn" onclick="myFunction()">Pause</button> <!--video background button-->
+            <script src="scripts/videobg.js"></script> <!--video background script-->
+          </div>
         <div class="footer">
         </div>
 </section>
