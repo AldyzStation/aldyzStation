@@ -39,46 +39,6 @@ body {
   background: #ddd;
   color: black;
 }
-/* Social media icons */
-/* Style all font awesome icons */
-/*.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-/* Twitch */
-.fa-twitch {
-  background: #580054;
-  color: white;
-}
-/* Reddit */
-.fa-reddit {
-  background: #580054;
-  color: white;
-}
-/* Github */
-.fa-github {
-  background: #f88d01;
-  color: white;
-}
-/* Rounded Buttons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
 /* The Overlay (background) */
 .overlay { background-image: url('./images/ff7r.jpg') ;
  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
@@ -320,3 +280,48 @@ a {
 .show {
     display: block;
   }
+/* Social media icons */
+/* Style all font awesome icons */
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Twitch */
+.fa-twitch {
+  background: #580054;
+  color: white;
+}
+/* TikTok */
+.fa-tiktok {
+  background: #9e0396;
+  color: white;
+}
+/* Reddit */
+.fa-reddit {
+  background: #580054;
+  color: white;
+}
+/* Github */
+.fa-github {
+  background: #f88d01;
+  color: white;
+}
+/* Rounded Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
