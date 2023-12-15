@@ -1,10 +1,10 @@
 const time = new Date().getHours();
 let greeting;
 if (time < 12) {
-  greeting = "Good Morning Mother Fucker!";
+  greeting = "Good Morning Roleplayers!";
 } else if (time < 18) {
-  greeting = "Good day gob shit!";
+  greeting = "Good day Roleplayers!";
 } else {
-  greeting = "Good evening Crack Head!";
+  greeting = "Good evening roleplayers!";
 }
 document.getElementById("hello").innerHTML = greeting;

@@ -6,66 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Aldyz Station</title>
+    <title>PangeaeRoleplayHome</title>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo">
-        <source src="images/ff7.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
-<section class="layout"> <!-- make drop down bar persistant of click -->
-    <div class="header">
-    <div id="hello">
-        <script src="scripts/greeting.js"></script>
-    </div>
-    <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- Overlay content -->
-            <div class="overlay-content"> 
+    <section class="layout">
+        <div class="header">
+            <div id="hello">
+                <script src="../scripts/greeting.js"></script>
+            </div>
+        <div id="myNav" class="overlay">   
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>    
+                            <!-- Overlay content -->
+                <div class="overlay-content"> 
+                    <h5>
+                    <a href="../index.html" rel="noopener noreferrer">Home</a>
+                    <a href="https://linktr.ee/PangaeaRoleplay" rel="noopener noreferrer">Linktree</a>
+                    <a href="https://discord.gg/YHz6gMhpJW" rel="noopener noreferrer">Discord Server</a>
+                    <a href="https://cfx.re/join/grpa3x" rel="noopener noreferrer">FiveM Pangaea Roleplay Server</a>
+                    <a href="https://www.youtube.com/channel/UCFJcffKCMy8LOZOxuGAJTag" class="fa fa-youtube" rel="noopener noreferrer">Youtube</a>
+                    <a href="https://twitter.com/PangaeaRoleplay" class="fa fa-twitter" target="_blank" rel="noopener noreferrer">X/Twitter</a>
+                    <a href="https://www.tiktok.com/@pangaearoleplay" rel="noopener noreferrer">TikTok</a>
+                    <iframe src="https://discord.com/widget?id=1175934578041565316&theme=dark" 
+                    width="350" height="500" allowtransparency="true" frameborder="0" 
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </h5>
+                </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Pangaea Roleplay Menu</span>
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <span onclick="openNav()"></span>
+                <script src="../scripts/overlaynav.js"></script>
+        </div>
+        <div class="sidenav"> 
             <h5>
-            <a href="pages/personal.html" rel="noopener noreferrer">Personal</a>
-            <a href="pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
-            <a href="pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
-            <a href="pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+                <a href="../index.html" rel="noopener noreferrer">Home</a>
             </h5>
-            </div>
-            </div>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Stationz Menu</span>
-            <!-- Use any element to open/show the overlay navigation menu -->
-            <span onclick="openNav()"></span>
-            <script src="scripts/overlaynav.js"></script>
-    </div>
-    <div class="sidenav"> 
-        <h5>
-            <a href="index.html" rel="noopener noreferrer">Home</a>
-            <a href="pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
-            <a href="pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
-            <a href="pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
-        </h5>
-        <div class="dropdown">
-            <button class="dropdown-btn" onclick="dropdown()">Personal
-              <i class="fa fa-caret-down"></i>
-            </button></h4>
-            <div class="dropdown-container" id="myDropdown">
-                <script src="scripts/myDropdown.js"></script>
-                    <a href="https://linktr.ee/aldyzstation" target="_blank" rel="noopener noreferrer">All My LinkZ</a>
-                    <a href="https://www.youtube.com/channel/UCXbkqa4ImVZr2HkSmoZnVvg" class="fa fa-youtube" target="_blank" rel="noopener noreferrer">My YouTube</a>
-                    <a href="https://www.twitch.tv/aldyzstation" class="fa fa-twitch" target="_blank" rel="noopener noreferrer">My Twitch</a>
-                    <a href="https://www.tiktok.com/@aldyzstation" class="fa fa-tiktok" target="_blank" rel="noopener noreferrer">My TikTok</a>
-                    <a href="https://www.reddit.com/user/Aldy_Station" class="fa fa-reddit" target="_blank" rel="noopener noreferrer">My Reddit</a>
-                    <a href="https://github.com/AldyzStation" class="fa fa-github" target="_blank" rel="noopener noreferrer">My Git-Hub</a>
-                    <a href="https://www.linkedin.com/in/jake-alderton-4a64a0243/" class="fa fa-linkedin-square" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="https://9anime.vc" target="_blank" rel="noopener noreferrer">9 Anime</a>
-                    <a href="https://www.eyeofjustice.com/od/" target="_blank" rel="noopener noreferrer">Eye of Justice OD</a>
-            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn" onclick="myFunction()">Socials
+                    <i class="fa fa-caret-down"></i>
+                </button></h4>
+                <div class="dropdown-container" id="myDropdown">
+                    <script src="../scripts/myDropdown.js"></script>
+                    <a href="https://linktr.ee/PangaeaRoleplay" rel="noopener noreferrer">Linktree</a>
+                    <a href="https://discord.gg/YHz6gMhpJW"  rel="noopener noreferrer">Discord Server</a>
+                    <a href="https://cfx.re/join/grpa3x" rel="noopener noreferrer">FiveM Pangaea Roleplay Server</a>
+                    <a href="https://www.youtube.com/channel/UCFJcffKCMy8LOZOxuGAJTag" class="fa fa-youtube" rel="noopener noreferrer">Youtube</a>
+                    <a href="https://twitter.com/PangaeaRoleplay" class="fa fa-twitter" target="_blank" rel="noopener noreferrer">X/Twitter</a>
+                    <a href="https://www.tiktok.com/@pangaearoleplay" rel="noopener noreferrer">TikTok</a>
+                </div>
+              </div>
+            </h4>
         </div>
-    </div>
-        <div class="footer">        
-            <div class="content"> <!--video background content class-->
-            <button id="myBtn" onclick="myFunction()">Pause</button> <!--video background button-->
-            <script src="scripts/videobg.js"></script> <!--video background script-->
-            </div>
+        <!--<div class="content">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/watch?v=F7a4xob7bcw">
+            </iframe>
         </div>
-</section>
+        <div class="footer">
+        </div>-->
+    </section>
 </body>
 </html>
