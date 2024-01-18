@@ -1,3 +1,13 @@
+/* styles for portrait mode */
+@media screen and (orientation: portrait) {
+  /* your CSS rules here */
+}
+
+/* styles for landscape mode */
+@media screen and (orientation: landscape) {
+  /* your CSS rules here */
+}
+
 @media (max-width: 600px) {
   /* styles for small screens */
 }
