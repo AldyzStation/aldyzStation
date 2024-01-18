@@ -1,7 +1,7 @@
 var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("myPlay");
 
-function myFunction() {
+function myPlay() {
   if (video.paused) {
     video.play();
     btn.innerHTML = "Pause";

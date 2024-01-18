@@ -25,7 +25,7 @@ body {
   padding: 20px;
 }
 /*Video Background Button*/
-#myBtn {
+#myPlay {
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -35,10 +35,11 @@ body {
   cursor: pointer;
 }
 
-#myBtn:hover {
+#myPlay:hover {
   background: #ddd;
   color: black;
 }
+
 /* The Overlay (background) */
 .overlay { background-image: url('./images/ff7r.jpg') ;
  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
@@ -317,7 +318,7 @@ a {
   color: white;
 }
 /* Rounded Buttons */
-.fa {
+/*.fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
