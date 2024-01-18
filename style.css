@@ -26,9 +26,9 @@ body {
 }
 /*Video Background Button*/
 #myPlay {
-  width: 200px;
+  width: fit-content;
   font-size: 18px;
-  padding: 10px;
+  padding: fit-content;
   border: none;
   background: #000;
   color: #fff;
