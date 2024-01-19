@@ -131,28 +131,30 @@ a {
     display: inline-block;
     text-rendering: optimizeLegibility;
 }
-.layout { /* Website grid layout */
-    width: 1850px;
-    height: 1000px;
-    display: grid;
-    grid:
-      "header header header header header" 1fr
-      "sidenav content content content content" 1fr
-      "sidenav content content content content" 1fr
-      "sidenav content content content content" 1fr
-      "footer footer footer footer footer" 1fr
-      / auto auto auto auto auto;
-    gap: 10px;
-}
-.header { grid-area: header; 
-          position: relative;
-          background: #333333 url('images/ALDYZ STATION OVERLAY.png'); /* display: flex; */
-          color: #FFFFFF;
-          text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
-          text-align: center;
-          font-family: "Comic Sans MS", "Comic Sans", cursive;          
+
+.layout {
+  width: 1850px;
+  height: 1000px;
+
+  display: grid;
+  grid:
+    "header header header header header" 1fr
+    "sidenav body body body rightSide" 1fr
+    "sidenav body body body rightSide" 1fr
+    "sidenav body body body rightSide" 1fr
+    "footer footer footer footer footer" 1fr
+    / auto auto auto auto auto;
+  gap: 10px;
 }
 
+.header { grid-area: header; 
+  position: relative;
+  background: #333333 url('images/ALDYZ STATION OVERLAY.png'); /* display: flex; */
+  color: #FFFFFF;
+  text-shadow: rgb(0, 0, 0) 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff2d2d 0px 0px 20px, #ff2d2d 0px 0px 30px, #ff2d2d 0px 0px 40px, #ff2d2d 0px 0px 50px, #ff2d2d 0px 0px 75px, 2px 2px 0px rgba(206,89,55,0);
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;          
+}
 
 .header a.logo {
   font-size: 25px;
@@ -163,6 +165,11 @@ a {
   background-color: #ddd;
   color: black;
 }
+
+.leftSide { grid-area: leftSide; }
+.body { grid-area: body; }
+.rightSide { grid-area: rightSide; }
+.footer { grid-area: footer; }
 
 /* Style the side navigation */
 .sidenav {
