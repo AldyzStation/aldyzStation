@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Aldyz Station</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="images/ff7.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+<section class="layout"> <!-- make drop down bar persistant of click -->
+    <div class="header">
+    <div id="hello">
+        <script src="scripts/greeting.js"></script>
+    </div>
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+            <div class="overlay-content"> 
+            <h5>
+            <!-- <a href="pages/personal.html" rel="noopener noreferrer">Personal</a> -->
+            <a href="pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
+            <a href="pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
+            <a href="pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+            <a href="pages/Youtube.html" rel="noopener noreferrer">YouTube</a>
+            </h5>
+            </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Stationz Menu</span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <script src="scripts/overlaynav.js"></script>
+    </div>
+    <div class="sidenav"> 
+        <h5>
+            <a href="index.html" rel="noopener noreferrer">Home</a>
+            <a href="/pages/personal.html" rel="noopener noreferrer">Personal</a>
+            <a href="pages/streaming.html" rel="noopener noreferrer">Streaming Tools</a>
+            <a href="pages/webdev.html" rel="noopener noreferrer">Web Development Tools</a>
+            <a href="pages/gamedev.html" rel="noopener noreferrer">Game Development Tools</a>
+            <a href="pages/Youtube.html" rel="noopener noreferrer">YouTube</a>
+        </h5>
+        <div class="dropdown">
+            <button class="dropdown-btn" onclick="dropdown()">Personal
+              <i class="fa fa-caret-down"></i>
+            </button></h4>
+            <div class="dropdown-container" id="myDropdown">
+                <script src="scripts/myDropdown.js"></script>
+                    <a href="https://linktr.ee/aldyzstation" target="_blank" rel="noopener noreferrer">All My LinkZ</a>
+                    <a href="https://www.youtube.com/channel/UCXbkqa4ImVZr2HkSmoZnVvg" class="fa fa-youtube" aria-hidden="true" target="_blank" rel="noopener noreferrer">My YouTube</a>
+                    <a href="https://www.twitch.tv/aldyzstation" class="fa fa-twitch" aria-hidden="true" target="_blank" rel="noopener noreferrer">My Twitch</a>
+                    <a href="https://www.tiktok.com/@aldyzstation" class="fa fa-tiktok" aria-hidden="true" target="_blank" rel="noopener noreferrer">My TikTok</a>
+                    <a href="https://www.reddit.com/user/Aldy_Station" class="fa fa-reddit" aria-hidden="true" target="_blank" rel="noopener noreferrer">My Reddit</a>
+                    <a href="https://github.com/AldyzStation" class="fa fa-github" aria-hidden="true" target="_blank" rel="noopener noreferrer">My Git-Hub</a>
+                    <a href="https://www.linkedin.com/in/jake-alderton-4a64a0243/" class="fa fa-linkedin-square" aria-hidden="true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://9anime.vc" target="_blank" rel="noopener noreferrer">9 Anime</a>
+                    <a href="https://www.eyeofjustice.com/od/" target="_blank" rel="noopener noreferrer">Eye of Justice OD</a>
+            </div>
+        </div>
+    </div>
+        <div class="footer">        
+            <div class="content"> <!--video background content class-->
+            <button id="myPlay" class="fa fa-play" onclick="myPlay()">Play</button> <!--video background button-->
+            <script src="scripts/videobg.js"></script> <!--video background script-->
+            </div>
+        </div>
+</section>
+</body>
+</html>

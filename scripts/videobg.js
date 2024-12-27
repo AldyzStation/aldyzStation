@@ -1,5 +1,5 @@
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myPlay");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("myPlay");
 
 function myPlay() {
   if (video.paused) {
